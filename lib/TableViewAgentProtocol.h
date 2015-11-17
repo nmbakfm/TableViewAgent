@@ -59,4 +59,5 @@
 
 
 @protocol TableViewAgentDelegate <tableView, didSelectCell, deleteCell, cellIdentifier, commonViewObject, sectionTitle, addCellIdentifier, didSelectAdditionalCell, addSectionTitle, addSectionHeightForHeader, addSectionHeader, sectionHeightForHeader, sectionHeader, cellHeight>
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 @end
