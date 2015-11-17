@@ -376,4 +376,9 @@ typedef struct {
     s.sectionHeader = [d respondsToSelector:@selector(sectionHeader:)];
     return s;
 }
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    [self.delegate scrollViewDidScroll: scrollView];
+}
+
 @end
