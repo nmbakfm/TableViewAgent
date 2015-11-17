@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "akuraru" => "akuraru@gmail.com" }
   s.ios.deployment_target = '7.0'
-  s.source       = { :git => "https://github.com/nmbakfm/TableViewAgent.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/nmbakfm/TableViewAgent.git", commit: 'add_scroll'}
   s.source_files  = 'Pod/Classes/**/*.{h,m}'
   s.requires_arc = true
 end
